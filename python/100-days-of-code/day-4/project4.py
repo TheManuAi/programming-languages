@@ -71,10 +71,3 @@ elif user_choice == scissors and computer_chose == rock:
 elif user_choice == scissors and computer_chose == paper:
     print("You Won!")
 
-# This logic also works if instead of rock, paper, scissors I used 1 2 and 3 respectively
-# if computer_chose > user_choice:
-#     print("Computer Won!")
-# if computer_chose < user_choice:
-#     print("You Won!")
-# else:
-#     print("It's a Draw!")
