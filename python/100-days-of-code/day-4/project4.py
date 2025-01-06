@@ -1,4 +1,4 @@
-import random
+niimport random
 
 rock = '''
     _______
@@ -40,6 +40,7 @@ elif user_choice == "3":
     user_choice = scissors
 else:
     print("Choose a valid option.")
+    exit()
 
 
 # printing computer input
