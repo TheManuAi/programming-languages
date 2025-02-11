@@ -18,18 +18,15 @@ def caesar(original_text, shift_amount, encode_or_decode):
     print(f"Here is the {encode_or_decode}d result: {output_text}")
 
 
-again = False
-while not again:
-    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
-    text = input("Type your message:\n").lower()
-    shift = int(input("Type the shift number:\n"))
+while True:
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").strip().lower()
+    text = input("Type your message:\n").strip().lower()
+    shift = int(input("Type the shift number:\n").strip())
 
     caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
-    restart = input("Type 'y' or 'yes' to restart: \n").lower()
-    if restart == "yes" or restart == "y":
-        again = False
-    else:
-        again = True
+    
+    restart = input("Type 'y' or 'yes' to restart, anything else to exit:\n").strip().lower()
+    if restart not in ("y", "yes"):
         print("Goodbye")
-
+        break
 
