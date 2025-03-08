@@ -10,4 +10,3 @@ word = input("Enter the word: ")
 letter = input("Enter the charachter whose occurance you are intrested in: ")
 
 count(word=word, letter=letter)
-w
