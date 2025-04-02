@@ -1,6 +1,6 @@
 try:
     num1 = float(input("Enter the first number: "))
-    operator = input("Enter the operation(+, -, *, /):").strip()
+    operator = input("Enter the operation ( +, -, *, / ): ").strip()
     num2 = float(input("Enter the second number: "))
     if operator == "/" and num2 == 0:
         print("Division with 0 is not defined")

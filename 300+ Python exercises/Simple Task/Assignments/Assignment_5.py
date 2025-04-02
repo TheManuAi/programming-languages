@@ -1,6 +1,6 @@
 try:
     num1 = float(input("Enter the first number: "))
-    operator = input("Enter the operation(+, -, *, /):").strip()
+    operator = input("Enter the operation ( +, -, *, / ): ").strip()
     num2 = float(input("Enter the second number: "))
     operator2 = input("Enter the operation(+, -, *, /):").strip()
     num3 = float(input("Enter the third number: "))

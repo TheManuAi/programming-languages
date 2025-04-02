@@ -6,4 +6,4 @@ try:
     area = float(length) * float(width)
     print(f"The area is {area}")
 except ValueError:
-    print("Enter a valid radius")
+    print("Enter valid dimensions")
