@@ -1,0 +1,6 @@
+print("A")
+print("B", "C")
+print("D", "E", "F")
+print("G", "H", "I", "J")
+print("K", "L", "M", "N", "O")
+print("P", "Q", "R", "S", "T", "U")
